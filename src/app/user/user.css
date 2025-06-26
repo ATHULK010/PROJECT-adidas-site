@@ -1,0 +1,19 @@
+
+    body {
+      background-color: #f9f9f9;
+      font-family: Arial, sans-serif;
+    }
+    .login-card {
+      max-width: 500px;
+      margin: auto;
+      padding: 30px;
+      background-color: #ffffff;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      border-radius: 0;
+    }
+    .contact-info {
+      background-color: #111;
+      color: #fff;
+      padding: 30px;
+      margin-top: 50px;
+    }

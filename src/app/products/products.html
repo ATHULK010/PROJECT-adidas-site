@@ -1,0 +1,14 @@
+<h1 class="bebas-heading">OUR PRODUCTS</h1>
+
+<div class="card-container">
+  @for (item of products; track item.id) {
+    <div class="card">
+      <img src="{{ item.image }}" alt="Product Image" class="product-img" />
+      <div class="card-body">
+        <h2>{{ item.title }}</h2>
+        <p class="price">₹{{ item.price }}</p>
+        <a [routerLink]="['/singleview-list',item.id]">Goto</a>
+      </div>
+    </div>
+  }
+</div>

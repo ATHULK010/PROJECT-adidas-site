@@ -1,0 +1,53 @@
+
+    .card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.card {
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+  padding: 15px;
+  height: 350px;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+}
+
+.product-img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.card h2 {
+  font-size: 1.2rem;
+  color: #333;
+  margin: 10px 0;
+}
+
+.card .price {
+  font-weight: bold;
+  color: #000;
+  font-size: 1rem;
+}
+
+h1 {
+  font-family: 'Bebas Neue', sans-serif;
+  text-align: center;
+}
+
+.bebas-heading {
+  font-family: 'Bebas Neue', sans-serif;
+}

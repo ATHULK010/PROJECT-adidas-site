@@ -1,0 +1,153 @@
+.carousel-caption-left {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  font-size: 1.8rem;
+  font-weight: 900; 
+  color: rgb(255, 0, 0);
+  text-transform: uppercase;
+  z-index: 10;
+  font-family: 'Anton', sans-serif; 
+  letter-spacing: -1px;
+}
+
+
+
+.carousel-caption-right {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  z-index: 10;
+}
+
+.buy-now-btn {
+  background-color: red;
+  color: white;
+  text-transform: uppercase;
+  border: none;
+  padding: 10px 24px;
+  font-weight: 900; 
+  font-size: 0.95rem;
+  border-radius: 0;
+  font-family: 'Anton', sans-serif; 
+  letter-spacing: -0.5px; 
+}
+.carousel-background-text {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: 'Anton', sans-serif;
+  font-size: 9rem;
+  color: white;
+  text-transform: uppercase;
+  z-index: 10;
+  pointer-events: none;
+  text-align: center;
+  white-space: nowrap;
+  line-height: 1;
+}
+
+
+.card i {
+  font-size: 1.5rem;
+  margin: 0 10px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.card i:hover {
+  color: #000;
+}
+  .section-heading {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 48px;
+    letter-spacing: 2px;
+    font-weight: bold;
+  }
+
+
+.video-btn {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border: none;
+  border-radius: 50%;
+  padding: 12px 15px;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.video-btn:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: black;
+}
+
+  .section-heading {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 48px;
+    letter-spacing: 2px;
+    font-weight: bold;
+  }
+
+  .section-heading {
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.kit-rectangle {
+  height: 400px;
+  overflow: hidden;
+  border-radius: 0;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.kit-rectangle:hover,
+.kit-rectangle:active {
+  transform: scale(1.05);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.3);
+}
+
+.kit-rectangle img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.kit-rectangle:hover img,
+.kit-rectangle:active img {
+  transform: scale(1.02);
+}
+
+.kit-overlay-text {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 2rem;
+  letter-spacing: 0.5px;
+}
+
+.section-heading {
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+
+
+
+
+
+

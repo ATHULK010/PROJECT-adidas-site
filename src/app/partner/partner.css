@@ -1,0 +1,27 @@
+    body {
+      background-color: #f9f9f9;
+
+    }
+
+    .section-heading {
+      font-weight: bold;
+      font-family: 'Bebas Neue', sans-serif;
+      letter-spacing: 1px;
+    }
+
+    .partnership-section {
+      padding: 60px 0;
+    }
+
+    .partnership-img {
+      border-radius: 0; 
+      max-height: 400px;
+      object-fit: cover;
+      width: 100%;
+    }
+
+    @media (max-width: 767px) {
+      .partnership-img {
+        max-height: 300px;
+      }
+    }

@@ -1,0 +1,27 @@
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f8f9fa;
+    }
+
+    .product-card {
+      border: 1px solid #ddd;
+      border-radius: 0;
+      padding: 15px;
+      text-align: center;
+      background-color: #fff;
+    }
+
+    .product-card img {
+      max-height: 200px;
+      object-fit: cover;
+    }
+
+    .product-card .fa-cart-plus {
+      color: #000;
+      cursor: pointer;
+      margin-left: 10px;
+    }
+
+    .product-card .fa-cart-plus:hover {
+      color: #007bff;
+    }
